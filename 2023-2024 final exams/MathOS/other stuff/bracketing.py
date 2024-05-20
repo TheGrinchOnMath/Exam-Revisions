@@ -10,7 +10,7 @@ def f(num):
     return ((num-20)*(num-0.1)*(num-0.102)*((num-4.11)**2)) #fonction qui montre les cas limites, que ce bracketing ne trouve pas"""
     ##return ((num-98)*(num-13)*(num-2001)*(num-380.2)*(num-69.4266218726)*(num+0.1)*(num+0.1)*(num+0.2))
 #on definit  la fonction sign qui donne 1 ou -1 suivant le sign du nombre que nous analysons
-sign = lambda x: math.copysign(1, x)
+def sign(x): math.copysign(1, x)
 
 #zeros est la liste des zeros trouvees
 zeros = []
